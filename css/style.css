@@ -1,0 +1,59 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+body{
+    display:flex;
+    flex-wrap: wrap;  
+    padding: 60px; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://c7.alamy.com/comp/MP99B0/background-of-tamagotchi-pattern-vector-illustration-MP99B0.jpg);
+
+
+}
+#btn{
+    background-color:rgb(142, 183, 249);
+    padding: 15px; 
+    border: none;
+    border-radius: 6px;  
+    cursor:pointer;  
+    
+}
+.container{
+   
+    margin: 20px; 
+    padding:5px; 
+    width: 150px; 
+    height: 200px; 
+    background-color: rgb(46, 2, 39);
+    text-align: center; 
+    border-radius: 3px; 
+    
+}
+
+.container2{
+    margin: 20px; 
+    padding:5px; 
+    width: 150px; 
+    height: 200px; 
+    text-align: center; 
+    border-radius: 3px; 
+}
+
+.container button{
+    width: 50px; 
+    background-color:rgb(142, 183, 249);
+    cursor: pointer; 
+}
+
+.container2 button{
+    width: 50px; 
+    background-color:rgb(142, 183, 249);
+    cursor: pointer;
+}
